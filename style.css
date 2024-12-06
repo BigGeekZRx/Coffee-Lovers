@@ -1,0 +1,221 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    color: #ffffff;
+    line-height: 1.8;
+  }
+  
+ 
+  header {
+    background-color: #834333;
+    padding: 0.1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 1.9rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #7B3F00;
+    font-size: 1rem;
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 12px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: grey;
+    color: black;
+  }
+  
+ 
+  #hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  
+  .hero-content {
+    z-index: 1;
+    max-width: 600px;
+  }
+  
+  .hero-content h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #c0392b;
+  }
+  
+ 
+  section {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: black;
+  }
+  
+  section p {
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  
+  .produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .produto {
+    background-color: #7B3F00;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .produto:hover {
+    transform: translateY(-5px);
+  }
+  
+  .produto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .produto h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .produto p {
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .produto button {
+    background-color: #8B0000;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .produto button:hover {
+    background-color: #e74c3c;
+  }
+  
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  form label {
+    font-size: 1rem;
+    text-align: left;
+    color: black;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #8B0000;
+    color: #fff;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #e74c3c;
+  }
+  
+  
+  footer {
+    background-color: #7B3F00;
+    border-radius: 8px;;
+    color: #ecf0f1;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #ecf0f1;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #e74c3c;
+  }
+  
